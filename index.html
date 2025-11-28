@@ -3,46 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Galletitas - El encanto de degustar</title>
+
+    <!-- Bootstrap CDN-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- CSS -->
+     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body> 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <a class="navbar-brand" href="#">Galletitas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
+                        <a class="nav-link" href="servicios.html">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 
     <main>
+        <section id="titulo-principal-1" class="container">
+            <h1 class="text-center">Galletitas</h1>
+            <p class="text-center">El encanto de degustar</p>
+        </section>
 
+        <section id="quienes-somos-2" class="container">
+            <section class="row">
+                <article class="col-sm-8">
+                    <h2>Quienes Somos</h2>
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime exercitationem autem minus est officiis, sed odio distinctio, possimus odit nostrum eos, laborum dignissimos! Delectus quae quia harum possimus soluta?.</p>
+                </article>
+                <article class="col-sm-4">
+                    <img src="./assets/image/quienes-somos-1.png" class="img-fluid rounded mx-auto d-block" alt="Repostera creando gelletitas">
+                </article>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2 class="text-center">Nuestras Creaciones</h2>
+                <p class="text-center">Cada bocado alegra tus momentos</p>
+            </section>
+            <section class="m-5 ">
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <!-- card 1 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="./assets/image/1.png" class="card-img-top" alt="galletitas 1">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-uppercase">Chispas de chocolate</h5>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <a href="#" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="./assets/image/2.png" class="card-img-top" alt="galletitas 2">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-uppercase">Chispas de chocolate</h5>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <a href="#" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="./assets/image/3.png" class="card-img-top" alt="galletitas 3">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-uppercase">Chispas de chocolate</h5>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <a href="#" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 4 -->
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="./assets/image/4.png" class="card-img-top" alt="galletitas 4">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-uppercase">Chispas de chocolate</h5>
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <a href="#" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>
+            </section>
+        </section>
+
+        <!-- Boton hacia arriba -->
+        <button class="scrollToTopBtn">☝️</button>
     </main>
 
-    <footer>
-
+    <footer class="container-fluid">
+        <p class="text-center">
+            Horneado con amor por <a class="" href="#">Galletitas.cl</a>
+        </p>
     </footer>
     
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./assets/js/scripts.js"></script>
+    <noscript>Tú necesitas habilitar Javascript para ver el sitio web completo.</noscript>
 </body>
 </html>
