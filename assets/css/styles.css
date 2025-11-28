@@ -75,7 +75,7 @@ body {
   background-color: var(--bs-pink-100);
 }
 
-h1, h2 , p {
+h1, h2 {
   color: var(--bs-pink-800);
 }
 
