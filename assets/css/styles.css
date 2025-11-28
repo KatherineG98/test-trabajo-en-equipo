@@ -74,7 +74,8 @@
 body {
   background-color: var(--bs-pink-100);
 }
-h1 {
+
+h1, h2 , p {
   color: var(--bs-pink-800);
 }
 
@@ -92,6 +93,16 @@ h1 {
 
 #navbarSupportedContent a:hover{
   color: var(--bs-pink-500) !important;
+}
+
+#btn-servicio{
+  background-color: var(--bs-pink-300);
+  color: white;
+}
+
+#btn-servicio:hover{
+  background-color: white;
+  color: var(--bs-pink-300);
 }
 
 .scrollToTopBtn {
