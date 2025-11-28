@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes Somos - Galletas Deliciosas</title>
+    <!-- Carga de Tailwind CSS CDN para estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuración para usar la fuente Inter y un esquema de color cálido -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fef3c7; /* Crema suave para el fondo */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Encabezado simple -->
+    <header class="bg-[#92400e] text-white p-4 shadow-lg">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-3xl font-bold">🍪 Galletas Deliciosas</h1>
+        </div>
+    </header>
+
+    <!-- Contenido Principal: Sección Quienes Somos -->
+    <main class="flex-grow py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto bg-white p-8 rounded-xl shadow-2xl">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-[#78350f] mb-8 text-center">
+                Quienes Somos
+            </h1>
+
+            <!-- Sección de texto e imagen: H2 y Párrafo al lado de la Imagen -->
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <!-- Contenedor de Texto -->
+                <div class="space-y-6 order-2 md:order-1">
+                    <h2 class="text-3xl font-bold text-[#b45309]">
+                        Nuestra Historia y Pasión por lo Sin Gluten
+                    </h2>
+                    <!-- Párrafo de texto (simulando lorem ipsum) -->
+                    <p class="text-gray-700 leading-relaxed text-lg">
+                        Somos artesanos dedicados a la felicidad sin límites. Cada galleta que horneamos es una promesa de sabor y calidad, hecha especialmente para quienes necesitan o eligen un estilo de vida sin gluten. Nacimos de la necesidad de ofrecer opciones deliciosas y seguras que no sacrifiquen el placer de un buen bocado. Nuestra filosofía es simple: los mejores ingredientes, mucho cariño y ninguna traza de gluten.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed text-lg italic">
+                        "En el corazón de nuestro horno late la convicción de que todos merecen disfrutar de una galleta perfecta. Esta es nuestra pasión, nuestro propósito."
+                    </p>
+                </div>
+
+                <!-- Contenedor de Imagen de la Galleta -->
+                <div class="order-1 md:order-2">
+                    <!-- Imagen placeholder de una galleta atractiva -->
+                    <img 
+                        src="https://placehold.co/800x600/f59e0b/ffffff?text=Galleta+Sin+Gluten+Deliciosa" 
+                        alt="Imagen de una galleta sin gluten recién horneada" 
+                        class="w-full h-auto object-cover rounded-lg shadow-xl transform hover:scale-[1.02] transition duration-300"
+                        onerror="this.onerror=null; this.src='https://placehold.co/800x600/92400e/ffffff?text=Galleta';"
+                    >
+                    <!--  -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#92400e] text-white py-6 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <!-- Párrafo 1: Hecho con amor -->
+            <p class="text-xl font-semibold mb-2 tracking-wide">
+                Hecho con amor para los amantes de las galletas ❤️
+            </p>
+            <!-- Párrafo 2: Derechos reservados -->
+            <p class="text-sm opacity-80">
+                &copy; 2025 Galletas Deliciosas, todos los derechos reservados
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
