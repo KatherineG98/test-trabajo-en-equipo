@@ -1,0 +1,122 @@
+
+/* Google Font 1 */
+.playwrite-cz-100 {
+  font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.playwrite-cz-200 {
+  font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.playwrite-cz-300 {
+  font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.playwrite-cz-400 {
+  font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Google Font 2 */
+.playwrite-no-100 {
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.playwrite-no-200 {
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.playwrite-no-300 {
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.playwrite-no-400 {
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root,
+[data-bs-theme=light] {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink-100: #F7D6E6;
+  --bs-pink-200: #EFADCE;
+  --bs-pink-300: #E685B5;
+  --bs-pink-400: #E685B5;
+  --bs-pink-500: #D63384;
+  --bs-pink-600: #AB296A;
+  --bs-pink-700: #801F4F;
+  --bs-pink-800: #561435;
+  --bs-pink-900: #2B0A1A;
+  --bs-brown: #5e3f06;
+}
+
+body {
+  background-color: var(--bs-pink-100);
+}
+h1 {
+  color: var(--bs-pink-800);
+}
+
+.bg-pink-400{
+  background-color: var(--bs-pink-400);
+}
+
+#navbar-brand-main{
+    color: var(--bs-pink-800);
+}
+
+#navbarSupportedContent a{
+  color: var(--bs-pink-700) !important;
+}
+
+#navbarSupportedContent a:hover{
+  color: var(--bs-pink-500) !important;
+}
+
+.scrollToTopBtn {
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  transform: translateY(100px);
+  /* and a transition */
+  transition: all 0.5s ease;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
